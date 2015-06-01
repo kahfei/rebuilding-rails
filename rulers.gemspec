@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Rulers::VERSION
   spec.authors       = ["kahfei"]
   spec.email         = ["bak.kahfei@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{A rack based web framework}
+  spec.description   = %q{A rack based web framework sprinkled with awesomeness}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
+  spec.add_runtime_dependency "rack"
 end
